@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "ChatRegs23"
+  navbar:
+    logo: "images/chatregs23robot.jpg"
+    left:
+      - href: index.qmd
+        text: "Table 1"
+      - text: Workshop Menu
+        menu:
+         - text: "1: Definitions"
+      - href: https://tinyurl.com/safe-ai-pdf
+        text: "Safe and Responsible AI in Australia"
+      - href: https://www.eventbrite.com.au/e/chatregs23-workshop-on-ai-regulations-at-the-university-of-sydney-tickets-652506994987
+        text: "Event Page"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

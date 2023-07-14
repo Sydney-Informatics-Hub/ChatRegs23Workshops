@@ -1,0 +1,33 @@
+/* css styles */
+.navbar-logo {
+	max-height: 50px;
+	width: auto;
+	padding-right: 4px;
+}
+
+
+.navbar {
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	align-items: center;
+	-webkit-align-items: center;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	padding-top: 0.2rem;
+	padding-bottom: .2rem;
+}
+
+.navbar-dark {
+	background-color: #0653a7;
+}
+
+.navbar-title {
+    color: #fff !important;
+}
+
+.navbar li.nav-item a.nav-link span {
+  color: #fff !important;
+}
