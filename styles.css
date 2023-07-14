@@ -22,7 +22,12 @@
 
 .navbar-dark {
 	background-color: #0653a7;
-	color: #fff;
 }
 
+.navbar-title {
+    color: #fff !important;
+}
 
+.navbar li.nav-item a.nav-link span {
+  color: #fff !important;
+}
