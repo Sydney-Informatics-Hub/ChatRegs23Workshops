@@ -31,3 +31,48 @@
 .navbar li.nav-item a.nav-link span {
   color: #fff !important;
 }
+
+/*definition names*/
+.sidebar-item span {
+  color: #009 !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/*definition names*/
+.depth1 .sidebar-item span{
+  color: #030 !important;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* definition text*/
+.depth2 .sidebar-item span {
+  color: #300 !important;
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/*"source" links*/
+.depth2.show .sidebar-link span {
+  color: #00f !important;
+  font-size: 1rem;
+}
+
+#quarto-sidebar .sidebar{
+    padding-left: 10px;
+}
+
+#quarto-sidebar .sidebar-menu-container {
+  max-width: 400px;
+	white-space: normal;
+}
+
+@media screen and (max-width: 550px) {
+#quarto-sidebar .sidebar-menu-container {
+  max-width: calc(80vw - 50px);
+	white-space: normal;
+}
+}
+
